@@ -1,0 +1,41 @@
+<ion-content style="background:#f1f1f1;">
+ <div class="vocabulary_main">
+ 	<p class="name"><span>名称：{{word.name}}</span><span> </span></p>
+ 	<p ng-show="word.definition" class="vocabulary_main_detail" ng-click="check_jiesi=!check_jiesi">
+ 		<span>解释定义<i class="fa  iconfont ">{{check_jiesi?'&#xe607;':'&#xe600;'}}</i></span>
+ 		<div class="vocabulary_main_message" ng-show="check_jiesi">
+ 		<pre>{{word.definition}}</pre>
+ 		</div>
+ 	</p>
+ 	<p ng-show="word.brief" class="vocabulary_main_detail" ng-click="check_brief=!check_brief">
+ 		<span>简介<i class="fa  iconfont ">{{check_brief?'&#xe607;':'&#xe600;'}}</i></span>
+ 		<div class="vocabulary_main_message" ng-show="check_brief">
+ 			<pre>{{word.brief}}</pre>
+ 		</div>
+ 	</p>
+ 	<p ng-show="word.reason" class="vocabulary_main_detail" ng-click="check_reason=!check_reason">
+ 		<span>{{category == "cihui" ? '病因':'影响因素'}}<i class="fa  iconfont ">{{check_reason?'&#xe607;':'&#xe600;'}}</i></span>
+ 		<div class="vocabulary_main_message" ng-show="check_reason">
+ 			<pre>{{word.reason}}</pre>
+ 		</div>
+ 	</p>
+ 	<p ng-show="word.prevent" class="vocabulary_main_detail" ng-click="check_prevent=!check_prevent">
+ 		<span>防治<i class="fa  iconfont ">{{check_prevent?'&#xe607;':'&#xe600;'}}</i></span>
+ 		<div class="vocabulary_main_message" ng-show="check_prevent">
+ 			<pre>{{word.prevent}}</pre>
+ 		</div>
+ 	</p>
+ 	<p ng-show="word.check" class="vocabulary_main_detail" ng-click="check_check=!check_check">
+ 		<span>诊断<i class="fa  iconfont ">{{check_check?'&#xe607;':'&#xe600;'}}</i></span>
+ 		<div class="vocabulary_main_message" ng-show="check_check">
+ 			<pre>{{word.check}}</pre>
+ 		</div>
+ 	</p>
+ 	<p ng-show="word.caution" class="vocabulary_main_detail" ng-click="check_caution=!check_caution">
+ 		<span>注意事项<i class="fa  iconfont ">{{check_caution?'&#xe607;':'&#xe600;'}}</i></span>
+ 		<div class="vocabulary_main_message" ng-show="check_caution">
+ 			<pre>{{word.caution}}</pre>
+ 		</div>
+ 	</p>
+ </div>
+</ion-content>

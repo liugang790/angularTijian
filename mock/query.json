@@ -1,0 +1,10 @@
+{
+  "/api/v1/query/": {
+      "options|put":  {
+          "data":
+           {
+    		    "new": "false"
+		   }
+      }
+  }
+}

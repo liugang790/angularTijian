@@ -1,0 +1,10 @@
+<div class="index_main">
+	<div class="index_project">
+		<div ng-repeat="alphatet_key in alphatet_keys" class="index_content">
+		    <p class="index_select">{{alphatet_key}}</p>
+		    <div class="index_message">
+				<p ui-sref="app.detail.list({category:'diss',request_id:item.id})" ng-repeat="item in alphatet[alphatet_key]">{{item.name}}</p>
+			</div>
+		</div>
+	</div>
+</div>

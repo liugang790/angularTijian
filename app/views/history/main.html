@@ -1,0 +1,24 @@
+<ion-content style="background:#f1f1f1">
+ <div class="report_main" ng-if="new_reports.length>0">
+ 	 <div class="date_report" ng-repeat="report in new_reports" >
+ 	 	<div class="date_report_left">
+ 	 		<p>{{report.check_date | date:'dd-MM'}}</p>
+ 	 		<p>{{report.check_date | date:'yyyy'}}</p>
+ 	 		<p></p>
+ 	 		<p></p>
+ 	 	</div>
+ 	 	<div ng-click="seeReport(report.id)" class="date_report_right">
+ 	 		<div class="message">
+ 	 			<span class="sanjiao"></span>
+ 	 			<p><span>{{report.name}}</span><span>{{report.sex}}</span><span>体检报告</span></p>
+ 	 			<p><span>编号：</span><span>{{report.work_no}}</span></p>
+ 	 		</div>
+ 	 	</div>
+ 	 </div>
+ </div>
+<div class="result_main" ng-if="new_reports.length==0">
+<p><img src="http://7xnsso.com2.z0.glb.qiniucdn.com/people.png"></p>
+<p>您还没有历史档案报告哦！</p>
+<p>查询过的报告才会自动存入历史档案中！</p>
+</div>
+</ion-content>

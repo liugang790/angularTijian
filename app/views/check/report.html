@@ -1,0 +1,33 @@
+ <div class="tijian_report_main">
+    	<div ng-repeat="key in check_items_keys" class="project">
+    		<p ng-if="check_items[key][0].exception ?'true':'false'"><i class="fa  iconfont ">&#xe605;</i>{{check_items[key][0].exception ?'检查项目':'检验项目'}}</p>
+    		<p>
+                <span> {{key}}</span><span><i class="fa  iconfont ">&#xe606;</i>咨询医生</span>
+            </p>
+    		<p class="check_part" ng-repeat="item in check_items[key]">
+             <!--  <div ng-repeat="item_a in exception_items"> -->
+                <span ng-class="{'check_color':item.exception}">
+                    <i class="fa  iconfont ">&#xe604;</i>{{item.item_name}}
+                </span>
+                <span ng-class="{'check_color':item.exception}">
+                    <a>{{itemResult(item)}}</a>
+                </span>
+                <span ng-if="item.normal_low">
+                    <a>参考范围：{{item.normal_low}}~{{item.normal_high}}</a>
+                    <a>单位：{{item.unit}}</a>
+                </span>
+               </div> 
+            </p>
+    		<!-- <p><span><i class="fa  iconfont ">&#xe604;</i>体重</span><span><a>80</a><a>单位：kg</a></span></p>
+    		<p><span><i class="fa  iconfont ">&#xe604;</i>视力</span><span>5.0</span></p> -->
+    		<!-- <p><i class="fa  iconfont ">&#xe606;</i>{{report.customer.name}}</p> -->
+    	</div>
+    	<!-- <div class="project">
+    		<p><i class="fa  iconfont ">&#xe605;</i>检查项目</p>
+    		<p><span>一般检查</span><span><i class="fa  iconfont ">&#xe606;</i>咨询医生</span></p>
+    		<p><span><i class="fa  iconfont ">&#xe604;</i>身高</span><span><a>180</a><a>单位：cm</a></span></p>
+    		<p><span><i class="fa  iconfont ">&#xe604;</i>体重</span><span><a>80</a><a>单位：kg</a></span></p>
+    		<p><span><i class="fa  iconfont ">&#xe604;</i>视力</span><span>5.0</span></p>
+    		<p><i class="fa  iconfont ">&#xe606;</i>奥巴马</p>
+    	</div> -->
+ </div>

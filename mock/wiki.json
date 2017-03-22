@@ -1,0 +1,145 @@
+{
+  "/api/v1/banners": {
+      "get":  {
+          "data": {
+            "num": 2,
+            "items": [{
+                "seq":1,
+                "link_to":"http://www.acfun.tv",
+                "img_url":"http://7xnsso.com2.z0.glb.qiniucdn.com/picture.jpg",
+                "description":"这里通往 A 站"
+              },{
+                "seq":2,
+                "link_to":"http://www.bilibili.com",
+                "img_url":"http://7xls5t.com2.z0.glb.qiniucdn.com/FqBo7rW8PHVv7bbe8-b5Cgi71Akd",
+                "description":"这里通往 B 站"
+              },{
+                "seq":3,
+                "link_to":"http://www.zhihu.com",
+                "img_url":"http://7xls5t.com2.z0.glb.qiniucdn.com/lhUMeHBUIiecWmSsCPHswlNn0jFW",
+                "description":"这里通往逼乎"
+              }
+            ]
+      	}
+      }
+  },
+
+  "/api/v1/disslist": {
+      "get":  {
+          "data": {
+            "category":{
+              "内科": [{
+                  "id":1,
+                  "sulg":"pa-jin-sen",
+                  "name":"帕金森",
+                  "category":"内科"
+                },{
+                  "id":2,
+                  "sulg":"zhong-er-bing",
+                  "name":"中二病",
+                  "category":"内科"
+                }]
+            },
+            "alphabet":{
+              "a":[{
+                "id":1,
+                "sulg":"pa-jin-sen",
+                "name":"帕金森",
+                "category":"内科"
+              }],
+              "z":[{
+                "id":2,
+                "sulg":"zhong-er-bing",
+                "name":"中二病",
+                "category":"内科"
+              }]
+            }
+        }
+      }
+    },
+
+
+
+  "/api/v1/symplist": {
+      "get":  {
+          "data": {
+              "a":[{
+                "id":1,
+                "sulg":"pa-jin-sen",
+                "name":"帕金森",
+                "category":"内科"
+              }],
+              "z":[{
+                "id":2,
+                "sulg":"zhong-er-bing",
+                "name":"中二病",
+                "category":"内科"
+              }]
+        }
+      }
+    },
+
+
+  "/api/v1/vblist": {
+      "get":  {
+          "data": {
+              "a":[{
+                "id":1,
+                "sulg":"pa-jin-sen",
+                "name":"帕金森",
+                "category":"内科"
+              }],
+              "z":[{
+                "id":2,
+                "sulg":"zhong-er-bing",
+                "name":"中二病",
+                "category":"内科"
+              }]
+          }
+      }
+    },
+
+
+
+  "/api/v1/diss": {
+      "get":  {
+          "data": {
+              "name":"帕金森",
+              "category":"内科",
+              "profile":"概述什么的",
+              "reason":"病因,什么造成的",
+              "symptom":"症状,",
+              "treatment":"治疗",
+              "test":"检查",
+              "prevent":"预防",
+              "check":"诊断鉴别"
+          }
+      }
+  },
+
+
+  "/api/v1/symp": {
+      "get":  {
+          "data": {
+              "name":"帕金森",
+              "brief":"简介",
+              "reason":"病因",
+              "prevent":"防治",
+              "check":"诊断"
+          }
+      }
+  },
+
+
+
+  "/api/v1/vb": {
+      "get":  {
+          "data": {
+              "name":"帕金森",
+              "definition":"解释定义",
+              "reason":"影响因素",
+              "caution":"注意事项"
+          }
+      }
+  }
+}

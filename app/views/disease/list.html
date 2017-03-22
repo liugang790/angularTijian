@@ -1,0 +1,13 @@
+<div class="tabs-striped tabs-top tabs-background-positive tabs-color-light" style="paddding:0;margin:0">
+    <div class="tabs">
+      <a class="tab-item" ng-click="changeTab(0)" ng-class="{'active':selecTabIndex==0}">疾病分类</a>
+      <a class="tab-item" ng-click="changeTab(1)" ng-class="{'active':selecTabIndex==1}">疾病索引</a>
+    </div>
+</div>
+
+<ion-content ng-show="selecTabIndex==0" style="background:#f1f1f1">
+<div ui-view='sort'></div>
+</ion-content>
+<ion-content ng-show="selecTabIndex==1" style="background:#f1f1f1">
+<div ui-view='index'></div>
+</ion-content>

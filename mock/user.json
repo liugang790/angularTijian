@@ -1,0 +1,14 @@
+{
+  "/api/v1/userinfo/": {
+      "get":  {
+          "data": {
+            "id": 999,
+            "name": "xxx",
+            "wx_account": {
+                "openid": "xxxxxx",
+                "headimgurl": "http://7sbqrd.com2.z0.glb.clouddn.com/avatar.png-avatarhd"
+            } 
+      	}
+      }
+  }
+}

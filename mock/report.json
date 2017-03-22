@@ -1,0 +1,978 @@
+{
+  "/api/v1/reports/": {
+      "get":  {
+          "data":{
+	        	"read": [
+	                		{
+ 								"id": 3,
+			                    "check_date": "1922-02-02T00:00:00",
+			                    "work_no": "1321111111112",
+			                    "name": "叶良成",
+			                    "sex": "女"
+	                		}
+                	],
+			     "unread": [
+			                 {
+ 								"id": 1,
+			                    "check_date": "1922-02-02T00:00:00",
+			                    "work_no": "1321111111112",
+			                    "name": "叶良成",
+			                    "sex": "女2"
+	                		}
+			     ]
+			}
+     }
+  },
+  "/api/v1/report/1/": {
+      "get":  {
+          "data":{
+				    "customer": {
+				        "name": "雷泽娟"
+				    },
+				    "check_date": "2015-10-14T08:59:58",
+				    "report": {
+				        "work_no": "1320151014060",
+				        "advice": [
+				            "慢性咽炎：\r\n是常见呼吸道疾病，建议避免吸入粉尘、刺激性气体、禁食辛辣食品及烟、酒等，必要时请到耳鼻喉科治疗。",
+				            "肥胖：\r\n1、体重指数大于等于28为肥胖。本次为\r\n2、饮食宜低脂肪、低糖、低盐，控制主食量，辅以优质蛋白（鱼、蛋、奶类等）以及各种蔬菜。\r\n3、加强运动消耗多余的脂肪。可依年龄及身体状况，选择适合自己的运动方式和时间，以达到减轻体重的目的。\r\n",
+				            "脂肪肝：\r\n1、是指由各种原因引起的肝细胞内脂肪堆积，是一种常见的临床疾病。常因高脂饮食、过量饮酒及肥胖或糖尿病等引起，重者会出现脂肪性肝炎及肝硬化。\r\n2、建议合理膳食，以低糖、低脂、低盐、高蛋白质、高维生素为原则，少吃油炸煎烤类食物。严格忌酒，避免使用损肝药物。\r\n3、坚持有氧运动，如快步走、慢跑等，促进脂质代谢。\r\n4、每3-6个月复查血脂、肝功能、肝脏B超，合并肝功能异常到消化内科就诊。\r\n",
+				            "肾结石：\r\n1、结石主要由尿中的钙盐类长时间集聚而形成。\r\n2、结石小于0.5cm时可自行排出体外，平时多饮水，常运动。\r\n3、结石较大，易引起泌尿系梗阻，可选择手术或体外碎石治疗。",
+				            "红细胞计数（RBC）增高：\r\n多见于血液浓缩、肺心病、某些先天性心脏病、高原地区居民等。建议复查，必要时根据病因就诊。\r\n",
+				            "平均红细胞体积（MCV）偏低：\r\n临床意义不大，观察。",
+				            "平均血红蛋白含量（MCH）减低：\r\n临床意义不大，观察。\r\n",
+				            "牙结石：\r\n建议必要时到口腔科治疗。",
+				            "阻生牙：\r\n1、常见于第三恒磨牙（俗称智牙）及上尖牙（俗称虎牙），可部分萌出或完全不能萌出。\r\n2、当智齿反复发炎，生长位置不正，或因食物嵌塞造成邻牙龋坏时，请及时     到口腔科诊治。\r\n3、保持口腔清洁，养成早晚刷牙、饭后漱口的良好卫生习惯。每半年或一年进行定期口腔检查。",
+				            "牙体缺损：\r\n1、是由于各种原因造成的牙冠大部分缺损。\r\n2、当所剩的牙体比较稳固时，可先进行完善的根管治疗，再进一步全冠或桩冠修复。\r\n",
+				            "幽门螺旋杆菌（现症感染）：\r\n提示近期有幽门螺杆菌感染可能。患有慢性胃炎、胃、十二指肠溃疡者或出现胃痛、腹胀、反酸、嗳气等症状时，应消化内科规范治疗。",
+				            "血沉方程K值偏高：\r\n供内科结合临床参考。",
+				            "全血粘度切变率1/s增高：\r\n\r\n",
+				            "全血粘度切变率5/s增高：\r\n\r\n",
+				            "全血粘度切变率100/s增高：\r\n\r\n",
+				            "全血粘度切变率200/s增高：\r\n\r\n",
+				            "丙氨酸氨基转移酶（ALT）升高：\r\n1、轻度增高可因剧烈运动、大量饮酒、劳累、发热后引起，经休息和饮食调整可自行恢复正常，建议一个月后复查肝功能，如仍异常，应到消化内科治疗。\r\n2、明显增高可因病毒性肝炎、酒精脂肪肝、药物性肝炎等引起，可伴有疲劳、腹胀、食欲差等症状。应立即到消化内科治疗。\r\n3、注意劳逸结合，饮食多样化，常吃富含蛋白质、维生素食物及新鲜蔬菜水果。",
+				            "血清尿酸增高：\r\n1、是因遗传、过食高蛋白、高嘌呤食物等导致的嘌呤代谢紊乱，长期可致痛风及结石。多伴有肥胖、高脂血症。糖代谢异常、冠心病等。\r\n2、应及时调整饮食结构，忌食高嘌呤食物，如动物内脏、鱼卵、蟹黄、带鱼、豆芽、香菇等。少饮酒，建议每日饮水在2000ml以上以利于尿酸排出。\r\n3、若出现关节疼痛等不适，请医院内分泌科诊治。",
+				            "甘油三酯增高：\r\n1、指血中脂类物质增多，长期可造成血粘度增高或动脉粥样硬化，使脑中风、冠心病、心肌梗塞等病风险性增高。\r\n2、戒烟限酒，低脂、低胆固醇饮食，如少吃油腻及煎烤类食物，少吃动物内脏等，多食蔬菜水果。加强运动，促进脂质代谢。\r\n3、定期复查血脂，复查前请低脂饮食3天。如血脂持续增高，请在医生指导下使用调脂药物。"
+				        ],
+				    	"check_items": {
+				            "乳腺彩超": [
+				                {
+				                    "exception": false,
+				                    "item_name": "超声印象",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "本次所检项目未见明显异常",
+				                    "unit": "kg/l"
+				                }
+				            ],
+				            "心电图常规检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "心电图结论",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "窦性心律，正常心电图",
+				                    "unit": ""
+				                }
+				            ],
+				            "妇科检查": [],
+				            "耳鼻喉检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "耳部",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "鼻部",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "咽喉检查",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "咽部粘膜慢性充血，咽后壁淋巴滤泡增生",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "耳鼻喉科初步意见",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "慢性咽炎",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "扁桃体检查",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "生化全套": [
+				                {
+				                    "exception": false,
+				                    "item_name": "血清肌酐（CRE）",
+				                    "normal_low": "37",
+				                    "normal_high": "120",
+				                    "item_result": "90",
+				                    "unit": "umol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "尿素氮（BUN）",
+				                    "normal_low": "2.77",
+				                    "normal_high": "7.35",
+				                    "item_result": "6.29",
+				                    "unit": "mmol/L"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "血清尿酸（UA）",
+				                    "normal_low": "160",
+				                    "normal_high": "380",
+				                    "item_result": "387",
+				                    "unit": "umol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清总胆固醇（CHO）",
+				                    "normal_low": "2.80",
+				                    "normal_high": "5.70",
+				                    "item_result": "5.27",
+				                    "unit": "mmol/L"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "血清甘油三酯（TG）",
+				                    "normal_low": "0.29",
+				                    "normal_high": "1.85",
+				                    "item_result": "2.68",
+				                    "unit": "mmol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清高密度脂蛋白胆固醇（HDL-C）",
+				                    "normal_low": "0.9",
+				                    "normal_high": "4.0",
+				                    "item_result": "1.77",
+				                    "unit": "mmol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清低密度脂蛋白胆固醇（LDL-C）",
+				                    "normal_low": "0",
+				                    "normal_high": "4.0",
+				                    "item_result": "3.11",
+				                    "unit": "mmol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "空腹血葡萄糖（GLU）",
+				                    "normal_low": "3.90",
+				                    "normal_high": "6.00",
+				                    "item_result": "5.58",
+				                    "unit": "mmol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "天门冬氨酸氨基转移酶（AST）",
+				                    "normal_low": "0",
+				                    "normal_high": "37",
+				                    "item_result": "30",
+				                    "unit": "IU/L"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "血清丙氨酸氨基转移酶（ALT）",
+				                    "normal_low": "0",
+				                    "normal_high": "38",
+				                    "item_result": "46",
+				                    "unit": "IU/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清γ-谷氨酰基转移酶（GGT）",
+				                    "normal_low": "6",
+				                    "normal_high": "46",
+				                    "item_result": "22",
+				                    "unit": "IU/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清碱性磷酸酶（ALP）",
+				                    "normal_low": "47",
+				                    "normal_high": "138",
+				                    "item_result": "103",
+				                    "unit": "IU/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清总胆红素（TBIL）",
+				                    "normal_low": "5",
+				                    "normal_high": "28",
+				                    "item_result": "11.6",
+				                    "unit": "umol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "直接胆红素（DBIL）",
+				                    "normal_low": "0",
+				                    "normal_high": "8.8",
+				                    "item_result": "3.3",
+				                    "unit": "umol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "间接胆红素（IBIL）",
+				                    "normal_low": "0",
+				                    "normal_high": "20",
+				                    "item_result": "8.3",
+				                    "unit": "umol/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清总蛋白（TP）",
+				                    "normal_low": "60.0",
+				                    "normal_high": "85.0",
+				                    "item_result": "80.9",
+				                    "unit": "g/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清白蛋白（ALB）",
+				                    "normal_low": "35.0",
+				                    "normal_high": "55.0",
+				                    "item_result": "48.1",
+				                    "unit": "g/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血清球蛋白（GLO）",
+				                    "normal_low": "19",
+				                    "normal_high": "34",
+				                    "item_result": "32.8",
+				                    "unit": "g/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "白蛋白/球蛋白比值（A/G）",
+				                    "normal_low": "1.2",
+				                    "normal_high": "2.5",
+				                    "item_result": "1.5",
+				                    "unit": "%"
+				                }
+				            ],
+				            "腰椎正侧位DR检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "腰椎",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "腰椎椎体序列正常，生理曲度存在。各椎体及附件骨质未见明显异常征象；椎间隙、椎间孔未见变窄。",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "腰椎初步意见",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "腰椎骨质未见明显异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "外科": [
+				                {
+				                    "exception": false,
+				                    "item_name": "脊柱、四肢关节",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "皮肤",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "浅表淋巴结",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "浅表淋巴结未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "甲状腺检查",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "外科初步意见",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见明显异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "其他",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "子宫附件彩超": [
+				                {
+				                    "exception": false,
+				                    "item_name": "超声印象",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "本次所检项目未见明显异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "血常规": [
+				                {
+				                    "exception": true,
+				                    "item_name": "红细胞计数（RBC）",
+				                    "normal_low": "3.50",
+				                    "normal_high": "5.20",
+				                    "item_result": "5.24",
+				                    "unit": "×10~12/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "白细胞数目WBC",
+				                    "normal_low": "4.0",
+				                    "normal_high": "10.0",
+				                    "item_result": "7.9",
+				                    "unit": "×10~9/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血红蛋白（HGB）",
+				                    "normal_low": "110",
+				                    "normal_high": "155",
+				                    "item_result": "133",
+				                    "unit": "g/L"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "平均红细胞体积（MCV）",
+				                    "normal_low": "80.0",
+				                    "normal_high": "100.0",
+				                    "item_result": "78.5",
+				                    "unit": "fL"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "平均红细胞血红蛋白含量（MCH）",
+				                    "normal_low": "27.0",
+				                    "normal_high": "35.0",
+				                    "item_result": "25.3",
+				                    "unit": "pg"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "平均红细胞血红蛋白浓度（MCHC）",
+				                    "normal_low": "320",
+				                    "normal_high": "360",
+				                    "item_result": "323",
+				                    "unit": "g/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "红细胞分布宽度变异系数（RDW-CV）",
+				                    "normal_low": "11.5",
+				                    "normal_high": "17.0",
+				                    "item_result": "16.6",
+				                    "unit": "%"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血小板计数（PLT）",
+				                    "normal_low": "100",
+				                    "normal_high": "300",
+				                    "item_result": "298",
+				                    "unit": "×10~9/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "中性粒细胞数目（Gran#）",
+				                    "normal_low": "2.0",
+				                    "normal_high": "7.0",
+				                    "item_result": "4.9",
+				                    "unit": "×10~9/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "淋巴细胞数目（Lymph#）",
+				                    "normal_low": "0.8",
+				                    "normal_high": "4.0",
+				                    "item_result": "2.6",
+				                    "unit": "×10~9/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "中间细胞数目（Mid#）",
+				                    "normal_low": "0.1",
+				                    "normal_high": "0.9",
+				                    "item_result": "0.4",
+				                    "unit": "×10~9/L"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "红细胞压积（HCT）",
+				                    "normal_low": "35",
+				                    "normal_high": "49",
+				                    "item_result": "41.1",
+				                    "unit": "%"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "淋巴细胞百分比（Lymph%）",
+				                    "normal_low": "20",
+				                    "normal_high": "40",
+				                    "item_result": "33.4",
+				                    "unit": "%"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "中性粒细胞百分比（Gran%）",
+				                    "normal_low": "50",
+				                    "normal_high": "70",
+				                    "item_result": "61.9",
+				                    "unit": "%"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "中间细胞百分比（Mid%）",
+				                    "normal_low": "3.0",
+				                    "normal_high": "9.0",
+				                    "item_result": "4.7",
+				                    "unit": "%"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "红细胞分布宽度标准差（RDW-SD）",
+				                    "normal_low": "35.0",
+				                    "normal_high": "56.0",
+				                    "item_result": "43.4",
+				                    "unit": "fl"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血小板压积（PCT）",
+				                    "normal_low": "0.100",
+				                    "normal_high": "0.282",
+				                    "item_result": "0.280",
+				                    "unit": "%"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "平均血小板体积（MPV）",
+				                    "normal_low": "6.5",
+				                    "normal_high": "14",
+				                    "item_result": "10.2",
+				                    "unit": "fL"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血小板分布宽度（PDW）",
+				                    "normal_low": "9.9",
+				                    "normal_high": "17.0",
+				                    "item_result": "15.9",
+				                    "unit": "fL"
+				                }
+				            ],
+				            "颈椎正侧双斜DR检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "颈椎",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "颈椎生理前曲存在。各椎体及附件骨质未见异常改变。诸椎间隙、椎间孔清晰，未见明显变窄。颈部软组织未见异常征象。",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "颈椎初步意见",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "颈椎骨质未见明显异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "彩色经颅多普勒检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "经颅多普勒结论",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "本次TCD检查未见异常。",
+				                    "unit": ""
+				                }
+				            ],
+				            "口腔科": [
+				                {
+				                    "exception": false,
+				                    "item_name": "牙齿",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "左上7牙体缺损，右下智齿阻生",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "牙周",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "牙结石+",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "口腔粘膜",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "口腔科初步意见",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "牙结石，阻生牙，牙体缺损",
+				                    "unit": ""
+				                }
+				            ],
+				            "颈动脉彩超": [
+				                {
+				                    "exception": false,
+				                    "item_name": "超声印象",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "本次所检项目未见明显异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "骨密度检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "骨质密度检测",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "骨量正常",
+				                    "unit": ""
+				                }
+				            ],
+				            "癌胚抗原定性（CEA）": [
+				                {
+				                    "exception": false,
+				                    "item_name": "癌胚抗原定性（CEA）",
+				                    "normal_low": "阴性(-)",
+				                    "normal_high": "阴性(-)",
+				                    "item_result": "阴性(-)",
+				                    "unit": ""
+				                }
+				            ],
+				            "总检报告": [],
+				            "输尿管、膀胱": [
+				                {
+				                    "exception": false,
+				                    "item_name": "超声印象",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "本次所检项目未见明显异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "内科检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "既往病史",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "无",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "家族史",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "无",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "心脏",
+				                    "normal_low": "50",
+				                    "normal_high": "100",
+				                    "item_result": "异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "肺部",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "呼吸音正常，无异常发现111",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "腹部",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "内科初步意见",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未发现异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "肝脏检查",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "脾脏检查",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "双肾检查",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "未见异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "一般情况": [
+				                {
+				                    "exception": true,
+				                    "item_name": "身高",
+				                    "normal_low": " ",
+				                    "normal_high": " ",
+				                    "item_result": "157",
+				                    "unit": "cm"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "体重",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "70.7",
+				                    "unit": "kg"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "舒张压",
+				                    "normal_low": " 60",
+				                    "normal_high": "89",
+				                    "item_result": "84",
+				                    "unit": "mmHg"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "收缩压",
+				                    "normal_low": " 90",
+				                    "normal_high": " 139",
+				                    "item_result": "136",
+				                    "unit": "mmHg"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "体重指数",
+				                    "normal_low": "18.5",
+				                    "normal_high": "23.9",
+				                    "item_result": "28.7",
+				                    "unit": ""
+				                }
+				            ],
+				            "视力色觉": [
+				                {
+				                    "exception": true,
+				                    "item_name": "左眼视力",
+				                    "normal_low": "  ",
+				                    "normal_high": "  ",
+				                    "item_result": "4.9",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "右眼视力",
+				                    "normal_low": "  ",
+				                    "normal_high": "  ",
+				                    "item_result": "4.7",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "色觉",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "正常",
+				                    "unit": ""
+				                }
+				            ],
+				            "白带常规": [],
+				            "尿常规": [],
+				            "血流变检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "血浆粘度（mPa.s）",
+				                    "normal_low": "1.26",
+				                    "normal_high": "1.70",
+				                    "item_result": "1.55",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "红细胞聚集指数（Agrbc）",
+				                    "normal_low": "3.19",
+				                    "normal_high": "5.33",
+				                    "item_result": "5.12",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "红细胞刚性指数（IR）",
+				                    "normal_low": "2.17",
+				                    "normal_high": "6.94",
+				                    "item_result": "3.87",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "红细胞变形指数（TK）",
+				                    "normal_low": "0.53",
+				                    "normal_high": "1.11",
+				                    "item_result": "0.77",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血沉",
+				                    "normal_low": "0",
+				                    "normal_high": "20.00",
+				                    "item_result": "17",
+				                    "unit": "mm/h"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "全血粘度切变率1/s",
+				                    "normal_low": "13.79",
+				                    "normal_high": "17.91",
+				                    "item_result": "20.49",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": true,
+				                    "item_name": "全血粘度切变率5/s",
+				                    "normal_low": "6.81",
+				                    "normal_high": "8.53",
+				                    "item_result": "9.15",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "全血粘度切变率50/s",
+				                    "normal_low": "3.95",
+				                    "normal_high": "5.01",
+				                    "item_result": "4.81",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "全血粘度切变率100/s",
+				                    "normal_low": "3.63",
+				                    "normal_high": "4.59",
+				                    "item_result": "4.33",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "全血粘度切变率200/s",
+				                    "normal_low": "3.36",
+				                    "normal_high": "4.32",
+				                    "item_result": "4",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "全血高切相对指数",
+				                    "normal_low": "1.98",
+				                    "normal_high": "3.43",
+				                    "item_result": "2.59",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "全血低切相对指数",
+				                    "normal_low": "8.11",
+				                    "normal_high": "14.21",
+				                    "item_result": "13.25",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "血沉方程K值",
+				                    "normal_low": "0.00",
+				                    "normal_high": "80.48",
+				                    "item_result": "56.37",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "全血低切还原粘度",
+				                    "normal_low": "26.87",
+				                    "normal_high": "47.57",
+				                    "item_result": "46.21",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "全血高切还原粘度",
+				                    "normal_low": "3.69",
+				                    "normal_high": "8.74",
+				                    "item_result": "5.99",
+				                    "unit": "mPa.s"
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "红细胞压积",
+				                    "normal_low": "0.35",
+				                    "normal_high": "0.49",
+				                    "item_result": "0.41",
+				                    "unit": "L/L"
+				                }
+				            ],
+				            "胸部正位DR检查": [
+				                {
+				                    "exception": false,
+				                    "item_name": "胸部",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "双肺纹理清晰，未见确切实性阴影；双侧膈面光滑，肋膈角锐利；纵隔未见增宽或移位，心影大小、形态未见明显异常。",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "放射科初步意见",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "心肺膈未见明显异常",
+				                    "unit": ""
+				                }
+				            ],
+				            "糖类抗原153（CA153）": [
+				                {
+				                    "exception": false,
+				                    "item_name": "糖类抗原153（CA153）",
+				                    "normal_low": "0",
+				                    "normal_high": "31.30",
+				                    "item_result": "10.757",
+				                    "unit": "KU/L"
+				                }
+				            ],
+				            "糖类抗原125（CA125）": [
+				                {
+				                    "exception": false,
+				                    "item_name": "糖类抗原125（CA125）",
+				                    "normal_low": "0",
+				                    "normal_high": "35.00",
+				                    "item_result": "9.805",
+				                    "unit": "U/ml"
+				                }
+				            ],
+				            "胃幽门螺旋杆菌检测": [
+				                {
+				                    "exception": false,
+				                    "item_name": "幽门螺旋杆菌（现症感染）",
+				                    "normal_low": "阴性(-)",
+				                    "normal_high": "阴性(-)",
+				                    "item_result": "阳性(+)",
+				                    "unit": ""
+				                },
+				                {
+				                    "exception": false,
+				                    "item_name": "幽门螺旋杆菌（既往感染）",
+				                    "normal_low": "阴性(-)",
+				                    "normal_high": "阴性(-)",
+				                    "item_result": "阴性(-)",
+				                    "unit": ""
+				                }
+				            ],
+				            "甲胎蛋白定性（AFP）": [
+				                {
+				                    "exception": false,
+				                    "item_name": "甲胎蛋白定性（AFP）",
+				                    "normal_low": "阴性(-)",
+				                    "normal_high": "阴性(-)",
+				                    "item_result": "阴性(-)",
+				                    "unit": ""
+				                }
+				            ],
+				            "营养早餐": [],
+				            "病理检查": [],
+				            "糖类抗原199（CA199）": [
+				                {
+				                    "exception": false,
+				                    "item_name": "糖类抗原199（CA199）",
+				                    "normal_low": "0",
+				                    "normal_high": "35",
+				                    "item_result": "3.528",
+				                    "unit": "KU/L"
+				                }
+				            ],
+				            "上腹部彩超": [
+				                {
+				                    "exception": true,
+				                    "item_name": "超声印象",
+				                    "normal_low": "",
+				                    "normal_high": "",
+				                    "item_result": "脂肪肝，肾结石",
+				                    "unit": ""
+				                }
+				            ]
+				        }
+				    },
+				    "check_date": "2015-10-14T08:59:58"
+				}
+
+     }
+  }
+}

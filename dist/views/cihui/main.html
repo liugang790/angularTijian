@@ -1,0 +1,1 @@
+<ion-content style="background:#f1f1f1"> <div ng-repeat="alphatet_key in alphatet_keys" class="cihui_main"> <p class="cihui_select">{{alphatet_key}}</p> <div class="cihui_message"> <p ng-repeat="item in alphatet[alphatet_key]" ui-sref="app.vocabulary.list({category:category,request_id:item.id})">{{item.name}}</p> </div> </div> </ion-content>

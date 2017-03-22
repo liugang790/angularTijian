@@ -1,0 +1,11 @@
+{
+  "/api/v1/send_code/": {
+      "options|post":  {
+          "data":
+           {
+    		    "code_md5": "e10adc3949ba59abbe56e057f20f883e", 
+    		    "phone_number": 13218117654
+		      }
+      }
+  }
+}
